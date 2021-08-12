@@ -175,3 +175,6 @@ Received Import Request.
   Time since last request: 1113.882811 seconds.
   path: Assets/Scripts/MainMenu.cs
   artifactKey: Guid(dc4f5f4b935842d42b84cbe23413502d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(dc4f5f4b935842d42b84cbe23413502d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6f7780f5227e18b774f02f24025248') in 11.655187 seconds 
+  Import took 56.413380 seconds .
+
