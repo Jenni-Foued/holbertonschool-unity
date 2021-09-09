@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
     {
         controller = gameObject.GetComponent<CharacterController>();
     }
-
     void Update()
     {
         bool groundedPlayer = controller.isGrounded;
