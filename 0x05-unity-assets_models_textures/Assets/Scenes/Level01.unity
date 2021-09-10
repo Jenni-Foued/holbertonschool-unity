@@ -610,6 +610,7 @@ GameObject:
   - component: {fileID: 504130475}
   - component: {fileID: 504130474}
   - component: {fileID: 504130473}
+  - component: {fileID: 504130477}
   m_Layer: 0
   m_Name: WinFlag
   m_TagString: Untagged
@@ -694,6 +695,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &504130477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504130472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e2b09b05d65f8438791ffbdf5fa814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 561426733}
 --- !u!114 &561426733 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2080428002236469857, guid: 617918f809524544fb5f1730442cbfa6, type: 3}
@@ -1806,7 +1820,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bf804fa28f463a4e93362e199252a8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1559338731}
 --- !u!65 &1084658245
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2080,6 +2093,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b4af38ae1d3eb469d7620c495eeb85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerSpeed: 10
+  jumpHeight: 5
+  gravityValue: 9.81
 --- !u!1 &1581891161
 GameObject:
   m_ObjectHideFlags: 0

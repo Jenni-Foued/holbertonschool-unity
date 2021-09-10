@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public float mouseSensitivity = 5f;
-    public GameObject player;
+    [SerializeField] float mouseSensitivity = 5f;
+    [SerializeField] GameObject player;
     private Vector3 offset;
 
     // Start is called before the first frame update
