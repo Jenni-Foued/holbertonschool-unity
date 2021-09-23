@@ -1,0 +1,649 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 2047 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/medfo/OneDrive/Documents/GitHub/holbertonschool-unity/0x06-unity-assets_ui
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61474
+Successfully changed project path to: C:/Users/medfo/OneDrive/Documents/GitHub/holbertonschool-unity/0x06-unity-assets_ui
+C:/Users/medfo/OneDrive/Documents/GitHub/holbertonschool-unity/0x06-unity-assets_ui
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 102.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/medfo/OneDrive/Documents/GitHub/holbertonschool-unity/0x06-unity-assets_ui/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: NVIDIA GeForce 210  (ID=0xa65)
+    Vendor:   
+    VRAM:     974 MB
+    Driver:   21.21.13.4201
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.045218 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 80.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.214 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.899558 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.058 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.39 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1433 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.2 MB.
+System memory in use after: 67.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1869.
+Total: 7.500100 ms (FindLiveObjects: 1.963000 ms CreateObjectMapping: 0.284000 ms MarkObjects: 5.081300 ms  DeleteObjects: 0.166500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Textures/UI/sound-mute.png
+  artifactKey: Guid(b9232f7be0374ec479836f53035fedd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/sound-mute.png using Guid(b9232f7be0374ec479836f53035fedd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9538a091dc20c96de1f0d69fca6cae') in 0.547040 seconds 
+  Import took 0.573130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.114129 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509e4f90f4d8f17707b8f49e0e6a4085') in 0.040560 seconds 
+  Import took 0.059697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004348 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509e4f90f4d8f17707b8f49e0e6a4085') in 0.055225 seconds 
+  Import took 0.083130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.188669 seconds.
+  path: Assets/Textures/UI/button-level01.png
+  artifactKey: Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level01.png using Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed3e9b3acccaad65bfb8e8cc5eeaaed') in 0.069686 seconds 
+  Import took 0.128833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 808.086282 seconds.
+  path: Assets/Textures/UI/button-level01.png
+  artifactKey: Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level01.png using Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1602c9d704bb0f14f451afc618681c81') in 0.280882 seconds 
+  Import took 0.330883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.169713 seconds.
+  path: Assets/Textures/UI/button-level01.png
+  artifactKey: Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level01.png using Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393670a7ed684dbd53e5b9ac0cdc24b6') in 0.113805 seconds 
+  Import took 0.139484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 415.537551 seconds.
+  path: Assets/Textures/UI/button-level01.png
+  artifactKey: Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level01.png using Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85e1349eec90c197da5fefaafe703f9') in 0.174859 seconds 
+  Import took 0.196660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.737629 seconds.
+  path: Assets/Textures/UI/button-level01.png
+  artifactKey: Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level01.png using Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef8be80ba1c67cf8b85b73c1f3e9998') in 0.227347 seconds 
+  Import took 0.265534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.146971 seconds.
+  path: Assets/Textures/UI/button-level01.png
+  artifactKey: Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level01.png using Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebffee1404844bc38985c8650fd3263') in 0.150119 seconds 
+  Import took 0.169489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.625183 seconds.
+  path: Assets/Textures/UI/button-level01.png
+  artifactKey: Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level01.png using Guid(867a7580f672e554f8fc14e32367eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0355720d080b6def40e21ad616bce37b') in 0.186569 seconds 
+  Import took 0.226980 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.128418 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.382 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.1 MB.
+System memory in use after: 70.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1887.
+Total: 5.526000 ms (FindLiveObjects: 1.044800 ms CreateObjectMapping: 0.175900 ms MarkObjects: 4.251200 ms  DeleteObjects: 0.051500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 310.024699 seconds.
+  path: Assets/Textures/UI/button-level02.png
+  artifactKey: Guid(56038a268a8460447af130d1594bec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level02.png using Guid(56038a268a8460447af130d1594bec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde196e95fff7be3189f4be2b432aedc') in 0.254276 seconds 
+  Import took 0.286741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.662516 seconds.
+  path: Assets/Textures/UI/button-level02.png
+  artifactKey: Guid(56038a268a8460447af130d1594bec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level02.png using Guid(56038a268a8460447af130d1594bec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43748dfd0ef1ac5befb088fe41aee56') in 0.251742 seconds 
+  Import took 0.258770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.815903 seconds.
+  path: Assets/Textures/UI/button-level02.png
+  artifactKey: Guid(56038a268a8460447af130d1594bec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level02.png using Guid(56038a268a8460447af130d1594bec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5cbe0caffd4605bc74920a48eed69f') in 0.142078 seconds 
+  Import took 0.161495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.186940 seconds.
+  path: Assets/Textures/UI/button-level02.png
+  artifactKey: Guid(56038a268a8460447af130d1594bec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level02.png using Guid(56038a268a8460447af130d1594bec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4cb8c0cdd4af61b2fe9eb9160a7748') in 0.142529 seconds 
+  Import took 0.161680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.593472 seconds.
+  path: Assets/Textures/UI/button-level03.png
+  artifactKey: Guid(3925202ae30c4c842ac3a1eed1f46da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level03.png using Guid(3925202ae30c4c842ac3a1eed1f46da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f62d9c2f1df01f74fcd7ca7e7051fad') in 0.107101 seconds 
+  Import took 0.153802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.295544 seconds.
+  path: Assets/Textures/UI/button-level03.png
+  artifactKey: Guid(3925202ae30c4c842ac3a1eed1f46da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level03.png using Guid(3925202ae30c4c842ac3a1eed1f46da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee29d562d2e4b0bacff143c294c84a75') in 0.129195 seconds 
+  Import took 0.153311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.978610 seconds.
+  path: Assets/Textures/UI/button-level03.png
+  artifactKey: Guid(3925202ae30c4c842ac3a1eed1f46da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level03.png using Guid(3925202ae30c4c842ac3a1eed1f46da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c097fdc69cf4ead66f7673a26e022d59') in 0.122455 seconds 
+  Import took 0.155768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.762599 seconds.
+  path: Assets/Textures/UI/button-level03.png
+  artifactKey: Guid(3925202ae30c4c842ac3a1eed1f46da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/button-level03.png using Guid(3925202ae30c4c842ac3a1eed1f46da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b482912020dfa12d86429b0115f50b5') in 0.159599 seconds 
+  Import took 0.182022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 645.790552 seconds.
+  path: Assets/Textures/UI/bg-menu.png
+  artifactKey: Guid(ee7a8c2122c875d4bbee7d4da1845d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-menu.png using Guid(ee7a8c2122c875d4bbee7d4da1845d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e2a374d4a79cb375704b748f98d2e7') in 0.136486 seconds 
+  Import took 0.155261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.759111 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd358c7a62cc5251f0df1e911a1fd2808') in 0.092558 seconds 
+  Import took 0.098987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.326290 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657c11e6977524532d00a7ca28328561') in 0.084183 seconds 
+  Import took 0.115724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.216841 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cdb918237e89389ddc6a0fe9fab2b2') in 0.098661 seconds 
+  Import took 0.118786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.539622 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66865c54a14a6ef6d8a984a7495e9ab3') in 0.145422 seconds 
+  Import took 0.158754 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.121945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.1 MB.
+System memory in use after: 70.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 12.634800 ms (FindLiveObjects: 0.382400 ms CreateObjectMapping: 0.104300 ms MarkObjects: 11.547100 ms  DeleteObjects: 0.596700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 312.996543 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9214adde9ddd1a6d8d52e54d4adf1c12') in 0.211629 seconds 
+  Import took 0.236387 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.383 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.1 MB.
+System memory in use after: 70.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1908.
+Total: 6.083100 ms (FindLiveObjects: 0.571500 ms CreateObjectMapping: 0.132800 ms MarkObjects: 5.325800 ms  DeleteObjects: 0.050100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47.809713 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb733bd38b7fb591fb21f952520dc327') in 0.136722 seconds 
+  Import took 0.154947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.310621 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03266a5747d7da3af3f67b4e90e0db9f') in 0.059313 seconds 
+  Import took 0.075280 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.049 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.2 MB.
+System memory in use after: 70.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 5.872600 ms (FindLiveObjects: 0.442500 ms CreateObjectMapping: 0.100600 ms MarkObjects: 5.289800 ms  DeleteObjects: 0.037100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.447418 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406d6130b4f2f004b44857ac3108918d') in 0.144352 seconds 
+  Import took 0.179591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.405211 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406d6130b4f2f004b44857ac3108918d') in 0.070464 seconds 
+  Import took 0.076422 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.724 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.2 MB.
+System memory in use after: 70.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 5.533000 ms (FindLiveObjects: 0.519000 ms CreateObjectMapping: 0.108100 ms MarkObjects: 4.852200 ms  DeleteObjects: 0.049900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.250181 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a86ddb9ae39d30fcdbea6ce0298acce') in 0.122147 seconds 
+  Import took 0.128901 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.097 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.2 MB.
+System memory in use after: 70.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 5.927600 ms (FindLiveObjects: 0.553000 ms CreateObjectMapping: 0.176700 ms MarkObjects: 5.145400 ms  DeleteObjects: 0.048500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.506 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.2 MB.
+System memory in use after: 70.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1923.
+Total: 6.064900 ms (FindLiveObjects: 0.531500 ms CreateObjectMapping: 0.121300 ms MarkObjects: 5.358800 ms  DeleteObjects: 0.049400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.969455 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadd27f67a0328c62e2f79e7dcbe9a4f') in 0.121909 seconds 
+  Import took 0.131166 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018253 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.563 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.2 MB.
+System memory in use after: 70.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1927.
+Total: 5.861400 ms (FindLiveObjects: 0.551000 ms CreateObjectMapping: 0.264200 ms MarkObjects: 4.993900 ms  DeleteObjects: 0.048000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.398228 seconds.
+  path: Assets/Textures/UI/bg-button.png
+  artifactKey: Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/bg-button.png using Guid(4eebe23b7a9bf5a4d9abfd909d29baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8803128f81976e419f656775c958414') in 0.150497 seconds 
+  Import took 0.176949 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011393 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.482 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.2 MB.
+System memory in use after: 70.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1931.
+Total: 5.760100 ms (FindLiveObjects: 0.597600 ms CreateObjectMapping: 0.118100 ms MarkObjects: 4.997400 ms  DeleteObjects: 0.043800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47.007099 seconds.
+  path: Assets/Prefabs/OptionsButton.prefab
+  artifactKey: Guid(5708e361bae259b45a672ff685dd74e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptionsButton.prefab using Guid(5708e361bae259b45a672ff685dd74e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98aa7176f03f4792c80f3a9e63a0fe03') in 0.357354 seconds 
+  Import took 0.366012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.168090 seconds.
+  path: Assets/Prefabs/ExitButton.prefab
+  artifactKey: Guid(66f0fc46f98c53f44a1a76cde711fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ExitButton.prefab using Guid(66f0fc46f98c53f44a1a76cde711fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dfa900f579c7db107230184d61cdc9') in 0.015052 seconds 
+  Import took 0.035464 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
