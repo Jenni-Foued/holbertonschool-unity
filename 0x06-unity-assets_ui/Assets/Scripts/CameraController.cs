@@ -7,6 +7,8 @@ public class CameraController : MonoBehaviour
     private Vector3 offset;
     float turnX;
 
+    public bool isInverted = false;
+
     // Start is called before the first frame update
     void Start()
     {

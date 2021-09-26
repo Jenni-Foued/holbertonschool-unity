@@ -611,7 +611,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &479331483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1718,6 +1718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 715538caedb01bd4eaf847f60c4024aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  invertYAxis: {fileID: 432474847}
 --- !u!1 &1691513131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2410,6 +2411,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1659243103}
     m_Modifications:
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1659243104}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Apply
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OptionsMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6791866815313841374, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
       propertyPath: m_Name
       value: ApplyButton
