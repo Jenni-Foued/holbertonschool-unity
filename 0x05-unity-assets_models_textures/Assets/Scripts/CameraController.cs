@@ -2,30 +2,27 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] float mouseSensitivity = 5f;
-    [SerializeField] GameObject player;
-    private Vector3 offset;
-    float turnX;
+    private Vector3 cameraOffset;
+
+    public Transform player;
+
+    public float sensitivity = 0.5f;
 
     // Start is called before the first frame update
     void Start()
     {
-        offset = transform.position - player.transform.position;
+        cameraOffset = transform.position - player.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButton(1))
-        {
-            turnX += Input.GetAxis("Mouse X")  * mouseSensitivity;
-            offset = Quaternion.AngleAxis (turnX, Vector3.up) * offset;
-            transform.position = player.transform.position + offset;
-            transform.LookAt(player.transform.position);
-        }
-        else
-        {
-        transform.position = player.transform.position + offset; 
-        }
+        cameraOffset = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * sensitivity, Vector3.up) * cameraOffset;
+        transform.position = player.position + cameraOffset;
+
+        transform.LookAt(player.position);
+
     }
+
+
 }
