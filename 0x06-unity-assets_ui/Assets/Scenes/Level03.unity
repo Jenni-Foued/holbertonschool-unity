@@ -1301,6 +1301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 561426733}
+  winCanvas: {fileID: 0}
 --- !u!4 &509031982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
@@ -3166,6 +3167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 5
   player: {fileID: 1559338731}
+  isInverted: 0
 --- !u!1001 &1010336107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5530,52 +5532,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4101340450655400191, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
   m_PrefabInstance: {fileID: 4101340449253420564}
   m_PrefabAsset: {fileID: 0}
---- !u!143 &1559338732
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1559338731}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.6
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1559338733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1559338731}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11e067ed58ab6ed4e8d87233be3212a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerText: {fileID: 561426733}
---- !u!114 &1559338736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1559338731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b4af38ae1d3eb469d7620c495eeb85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerSpeed: 10
-  jumpHeight: 5
-  gravityValue: 9.81
 --- !u!1001 &1563975474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8131,5 +8087,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5309786071553911858, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 561426733}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
