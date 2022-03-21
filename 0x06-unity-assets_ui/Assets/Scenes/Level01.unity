@@ -8275,6 +8275,10 @@ PrefabInstance:
       propertyPath: m_FontData.m_BestFit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3019549582900781962, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
 --- !u!1001 &4101340449253420564
