@@ -5586,52 +5586,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4101340450655400191, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
   m_PrefabInstance: {fileID: 4101340449253420564}
   m_PrefabAsset: {fileID: 0}
---- !u!143 &1559338732
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1559338731}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.6
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1559338733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1559338731}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11e067ed58ab6ed4e8d87233be3212a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerText: {fileID: 561426733}
---- !u!114 &1559338736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1559338731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b4af38ae1d3eb469d7620c495eeb85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerSpeed: 10
-  jumpHeight: 5
-  gravityValue: 9.81
 --- !u!1001 &1563975474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8046,10 +8000,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimerCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 2080428002427732743, guid: 617918f809524544fb5f1730442cbfa6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2080428002427732795, guid: 617918f809524544fb5f1730442cbfa6, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -8143,45 +8093,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3019549581923649732, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3019549581923649732, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3019549581923649732, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3019549581923649732, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3019549581923649732, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3019549581923649732, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3019549581923649732, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3019549581923649732, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3019549582039919142, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 3019549582039919142, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3019549582039919146, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
       propertyPath: m_Pivot.x
@@ -8267,18 +8181,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3019549582553208652, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_Text
-      value: Restart
-      objectReference: {fileID: 0}
-    - target: {fileID: 3019549582553208652, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_FontData.m_BestFit
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3019549582900781962, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b37345cbe2382324692f334b521a1fe0, type: 3}
 --- !u!1001 &4101340449253420564
@@ -8288,6 +8190,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1559338733, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 561426733}
     - target: {fileID: 4101340450655400187, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
       propertyPath: m_RootOrder
       value: 2
