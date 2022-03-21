@@ -2290,14 +2290,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackButton
       objectReference: {fileID: 0}
-    - target: {fileID: 3967529171385902892, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3967529171385902892, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 3945451662944984592, guid: 4eebe23b7a9bf5a4d9abfd909d29baf9, type: 3}
     - target: {fileID: 3967529171385902894, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2383,49 +2375,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3967529171385902895, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3967529171385902895, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3967529171385902895, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1659243104}
-    - target: {fileID: 3967529171385902895, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3967529171385902895, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Back
-      objectReference: {fileID: 0}
-    - target: {fileID: 3967529171385902895, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: OptionsMenu, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3967529171385902895, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3967529172202569383, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3967529172202569383, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3967529172202569383, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3967529172202569383, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
-      propertyPath: m_FontData.m_BestFit
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
 --- !u!1001 &6791866815948031128
@@ -2436,33 +2388,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 1659243103}
     m_Modifications:
     - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1659243104}
-    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Apply
-      objectReference: {fileID: 0}
-    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: OptionsMenu, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 6791866815313841374, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
       propertyPath: m_Name
       value: ApplyButton
@@ -2549,14 +2477,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6791866815313841375, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6791866815683922621, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
-      propertyPath: m_FontData.m_BestFit
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6791866815683922621, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
-      propertyPath: m_FontData.m_AlignByGeometry
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
