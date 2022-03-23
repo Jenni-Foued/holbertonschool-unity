@@ -153,3 +153,27 @@ Received Import Request.
 Start importing Assets/Scenes/Options.unity using Guid(25918fad079bdfe479ebd12a7a56b580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f015011de3f1555764c1985b9b320d4') in 0.014542 seconds 
   Import took 0.016916 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 451.553941 seconds.
+  path: Assets/Prefabs/BackButton.prefab
+  artifactKey: Guid(883785b93c9767e4baf3cb8aa8e57944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BackButton.prefab using Guid(883785b93c9767e4baf3cb8aa8e57944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e635f2bb3b7c8c50932e046c9115d7') in 0.050978 seconds 
+  Import took 0.053760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.732421 seconds.
+  path: Assets/Prefabs/ApplyButton.prefab
+  artifactKey: Guid(ae0850dbaa2956643867c866261f3d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ApplyButton.prefab using Guid(ae0850dbaa2956643867c866261f3d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3831a040f5adbf19883090957fa88ba5') in 0.012490 seconds 
+  Import took 0.014939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 282.311134 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(afc42429ae73d834aa14a67b178c4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(afc42429ae73d834aa14a67b178c4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d30fe6fc177b07ce09cffe025a09009') in 0.009872 seconds 
+  Import took 0.012961 seconds .
+
