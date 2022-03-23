@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float playerSpeed = 10.0f;
     [SerializeField] float jumpHeight = 5.0f;
     [SerializeField] float gravityValue = 9.81f;
+    [SerializeField] Transform cameraTransform;
 
     void Start()
     {
@@ -37,15 +38,18 @@ public class PlayerController : MonoBehaviour
         verticalVelocity -= gravityValue * Time.deltaTime;
 
         // gather lateral input control
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
         // scale by speed
-        move *= playerSpeed;
+        moveDirection *= playerSpeed;
+
+        // rotate with the camera
+        moveDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * moveDirection;
 
         // only align to motion if we are providing enough input
-        if (move.magnitude > 0.05f)
+        if (moveDirection.magnitude > 0.05f)
         {
-            gameObject.transform.forward = move;
+            gameObject.transform.forward = moveDirection;
         }
 
         // allow jump as long as the player is on the ground
@@ -63,10 +67,10 @@ public class PlayerController : MonoBehaviour
         }
 
         // inject Y velocity before we use it
-        move.y = verticalVelocity;
+        moveDirection.y = verticalVelocity;
 
-        // call .Move() once only
-        controller.Move(move * Time.deltaTime);
+        // call .moveDirection() once only
+        controller.Move(moveDirection * Time.deltaTime);
 
         // reset the game
         if (transform.position.y < -30.0f)

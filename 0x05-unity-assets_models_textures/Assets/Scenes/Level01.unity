@@ -5576,6 +5576,7 @@ MonoBehaviour:
   playerSpeed: 10
   jumpHeight: 5
   gravityValue: 9.81
+  cameraTransform: {fileID: 1003641564}
 --- !u!4 &1559338737 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4101340450655400187, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}

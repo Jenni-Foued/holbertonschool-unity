@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
 
     public Transform player;
 
-    public float sensitivity = 0.5f;
+    public float sensitivity = 5f;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +15,7 @@ public class CameraController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         cameraOffset = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * sensitivity, Vector3.up) * cameraOffset;
         transform.position = player.position + cameraOffset;
