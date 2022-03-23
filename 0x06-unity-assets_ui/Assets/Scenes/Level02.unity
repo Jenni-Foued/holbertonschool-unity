@@ -8091,7 +8091,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8534266962091821278, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
+    - target: {fileID: 5988711701214073095, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
       propertyPath: timerText
       value: 
       objectReference: {fileID: 561426733}

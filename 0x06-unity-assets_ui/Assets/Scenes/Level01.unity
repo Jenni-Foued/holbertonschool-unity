@@ -8194,10 +8194,6 @@ PrefabInstance:
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 1003641564}
-    - target: {fileID: 589668616688241888, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
-      propertyPath: timerText
-      value: 
-      objectReference: {fileID: 561426733}
     - target: {fileID: 4101340450655400187, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -8246,6 +8242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5988711701214073095, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 561426733}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
 --- !u!1001 &8076408404954429842
