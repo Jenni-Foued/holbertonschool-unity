@@ -8,26 +8,26 @@ public class OptionsMenu : MonoBehaviour
 {
     public Toggle invertYAxis;
 
-    private CameraController cameraControllerScript;
-
-    // Start is called before the first frame update
-    void Start()
+    // Awake is called before the Start method
+    void Awake()
     {
-        cameraControllerScript = GameObject.Find("Main Camera").GetComponent<CameraController>();
+        if (PlayerPrefs.HasKey("InvertYToggle"))
+            invertYAxis.isOn = PlayerPrefs.GetInt("InvertYToggle") == 0 ? false : true;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
+    // Undone work
     public void Back()
     {
         SceneManager.LoadScene("MainMenu");
     }
 
-    // No done yet
+    // Apply button method
     public void Apply()
     {
+        if (invertYAxis.isOn)
+            PlayerPrefs.SetInt("InvertYToggle", 1);
+        else
+            PlayerPrefs.SetInt("InvertYToggle", 0);
+        Back();
     }
 }

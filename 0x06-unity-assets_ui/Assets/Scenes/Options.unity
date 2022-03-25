@@ -2300,7 +2300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3967529171385902894, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3967529171385902894, guid: 883785b93c9767e4baf3cb8aa8e57944, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2388,9 +2388,33 @@ PrefabInstance:
     m_TransformParent: {fileID: 1659243103}
     m_Modifications:
     - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1659243104}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Apply
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OptionsMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791866815313841360, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6791866815313841374, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
       propertyPath: m_Name
       value: ApplyButton
@@ -2405,7 +2429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6791866815313841375, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6791866815313841375, guid: ae0850dbaa2956643867c866261f3d5d, type: 3}
       propertyPath: m_AnchorMax.x
