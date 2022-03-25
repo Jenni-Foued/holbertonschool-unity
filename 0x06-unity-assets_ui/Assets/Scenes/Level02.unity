@@ -1302,6 +1302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 561426733}
   winCanvas: {fileID: 1280707733}
+  timer: {fileID: 0}
 --- !u!4 &509031982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
@@ -6678,6 +6679,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba7a1193441cf6e4ea78c2ef8a6d52a4, type: 3}
+--- !u!114 &1870115216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8076408405644550478, guid: 8ad4864ea6331764e8778ed95b827081, type: 3}
+  m_PrefabInstance: {fileID: 1296240738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1890973947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8343,5 +8355,9 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 561426733}
+    - target: {fileID: 5988711701214073095, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
+      propertyPath: finalTimeText
+      value: 
+      objectReference: {fileID: 1870115216}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
