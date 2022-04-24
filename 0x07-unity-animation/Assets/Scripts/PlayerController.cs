@@ -6,13 +6,15 @@ public class PlayerController : MonoBehaviour
     private float verticalVelocity;
     private float groundedTimer;
     [SerializeField] float playerSpeed = 10.0f;
-    [SerializeField] float jumpHeight = 5.0f;
+    [SerializeField] float jumpHeight = 3.0f;
     [SerializeField] float gravityValue = 9.81f;
     [SerializeField] Transform cameraTransform;
+    static Animator animator;
 
     void Start()
     {
         controller = gameObject.GetComponent<CharacterController>();
+        animator = GetComponentInChildren<Animator>();
     }
     void Update()
     {
@@ -50,7 +52,10 @@ public class PlayerController : MonoBehaviour
         if (moveDirection.magnitude > 0.05f)
         {
             gameObject.transform.forward = moveDirection;
+            animator.SetBool("isRunning", true);
         }
+        else
+            animator.SetBool("isRunning", false);
 
         // allow jump as long as the player is on the ground
         if (Input.GetButtonDown("Jump"))
@@ -63,6 +68,7 @@ public class PlayerController : MonoBehaviour
 
                 // Physics dynamics formula for calculating jump up velocity based on height and gravity
                 verticalVelocity += Mathf.Sqrt(jumpHeight * 2 * gravityValue);
+                animator.SetBool("isJumping", true);
             }
         }
 

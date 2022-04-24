@@ -1701,6 +1701,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8c888acf8ad1e2f429a4bccfca285f11, type: 3}
+--- !u!114 &633069004 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8076408405644550478, guid: 8ad4864ea6331764e8778ed95b827081, type: 3}
+  m_PrefabInstance: {fileID: 8076408404954429842}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &653411264 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 191e64aa8fdea5c449c88bda41d648df, type: 3}
@@ -8374,6 +8385,10 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 561426733}
+    - target: {fileID: 5988711701214073095, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
+      propertyPath: finalTimeText
+      value: 
+      objectReference: {fileID: 633069004}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
 --- !u!1001 &8076408404954429842
