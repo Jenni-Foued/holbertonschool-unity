@@ -28,7 +28,7 @@ AnimatorTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImpactToGettingUp
+  m_Name: GettingUpToIdle
   m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4476940415150234087}
