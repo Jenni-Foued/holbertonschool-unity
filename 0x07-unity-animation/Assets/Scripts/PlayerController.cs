@@ -25,7 +25,10 @@ public class PlayerController : MonoBehaviour
             groundedTimer = 0.2f;
             animator.SetBool("isJumping", false);
             animator.SetBool("isFalling", false);
+            animator.SetBool("isGrounded", true);
         }
+        else
+            animator.SetBool("isGrounded", false);
         if (groundedTimer > 0)
         {
             groundedTimer -= Time.deltaTime;
