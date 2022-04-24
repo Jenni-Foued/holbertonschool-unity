@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
     private float verticalVelocity;
     private float groundedTimer;
     [SerializeField] float playerSpeed = 10.0f;
-    [SerializeField] float jumpHeight = 3.0f;
+    [SerializeField] float jumpHeight = 1.0f;
     [SerializeField] float gravityValue = 9.81f;
     [SerializeField] Transform cameraTransform;
     static Animator animator;
@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
         {
             // cooldown interval to allow reliable jumping even whem coming down ramps
             groundedTimer = 0.2f;
+            animator.SetBool("isJumping", false);
         }
         if (groundedTimer > 0)
         {
@@ -71,6 +72,7 @@ public class PlayerController : MonoBehaviour
                 animator.SetBool("isJumping", true);
             }
         }
+
 
         // inject Y velocity before we use it
         moveDirection.y = verticalVelocity;
