@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
             // cooldown interval to allow reliable jumping even whem coming down ramps
             groundedTimer = 0.2f;
             animator.SetBool("isJumping", false);
+            animator.SetBool("isFalling", false);
         }
         if (groundedTimer > 0)
         {
@@ -79,6 +80,11 @@ public class PlayerController : MonoBehaviour
 
         // call .moveDirection() once only
         controller.Move(moveDirection * Time.deltaTime);
+
+
+        // Falling animation
+        if (transform.position.y < -5.0f)
+            animator.SetBool("isFalling", true);
 
         // reset the game
         if (transform.position.y < -30.0f)
