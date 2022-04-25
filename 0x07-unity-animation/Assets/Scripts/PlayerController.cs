@@ -6,12 +6,12 @@ public class PlayerController : MonoBehaviour
     private float verticalVelocity;
     private float groundedTimer;
     [SerializeField] float playerSpeed = 10.0f;
-    [SerializeField] float jumpHeight = 1.0f;
-    [SerializeField] float gravityValue = 9.81f;
+    [SerializeField] float jumpHeight = 3.0f;
+    [SerializeField] float gravityValue = 20f;
     [SerializeField] Transform cameraTransform;
     static Animator animator;
 
-    void Start()
+    void Awake()
     {
         controller = gameObject.GetComponent<CharacterController>();
         animator = GetComponentInChildren<Animator>();
@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
         bool groundedPlayer = controller.isGrounded;
         if (groundedPlayer)
         {
-            // cooldown interval to allow reliable jumping even whem coming down ramps
+            // cooldown interval to allow reliable jumping even when coming down ramps
             groundedTimer = 0.2f;
             animator.SetBool("isJumping", false);
             animator.SetBool("isFalling", false);
@@ -94,5 +94,6 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(0.0f, 30.0f, 0.0f);
         }
+        
     }
 }

@@ -6,10 +6,12 @@ public class WinTrigger : MonoBehaviour
     [SerializeField] Text timerText;
     public GameObject winCanvas;
     public Timer timer;
+    public PlayerController playerController;
 
     void Start()
     {
-        timer = FindObjectOfType<Timer>();
+        timer = GameObject.Find("Player").GetComponent<Timer>();
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     // OnTriggerEnter is called when the gameObject is triggered
@@ -23,5 +25,6 @@ public class WinTrigger : MonoBehaviour
         // Change TimerText's color to green
         timerText.color = Color.green;
         timer.Win();
+        playerController.enabled = false;
     }
 }
