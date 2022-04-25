@@ -1,14 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioSource audioSource;
+    public AudioClip bgSoundclip;
+
+    private void Start()
     {
+        audioSource.PlayOneShot(bgSoundclip);
     }
 
     // Load the scene corresponding to the level number
@@ -26,6 +26,8 @@ public class MainMenu : MonoBehaviour
         {
             SceneManager.LoadScene("Level03");
         }
+        Time.timeScale = 1f;
+        audioSource.Stop();
     }
 
     // Exit the game when Exit button is pressed from the main menu
@@ -33,11 +35,14 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Exited");
+        audioSource.Stop();
     }
 
     // Load the Scene Options when the Options button is pressed from the main menu
     public void Options()
     {
         SceneManager.LoadScene("Options");
+        audioSource.Stop();
     }
+
 }

@@ -19,9 +19,8 @@ public class CameraController : MonoBehaviour
     {
         cameraOffset = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * sensitivity, Vector3.up) * cameraOffset;
         transform.position = player.position + cameraOffset;
-
         transform.LookAt(player.position);
-
+        // Mouse Y rotation to be done.
     }
 
 
