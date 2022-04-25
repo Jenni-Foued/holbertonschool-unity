@@ -38,5 +38,4 @@ Project Link: https://github.com/Jenni-Foued/holbertonschool-unity/tree/main/0x0
 - [Mindful Audio](https://mindful-audio.com/)
 
 - “Wallpaper”, “Cheery Monday” Kevin MacLeod (incompetech.com)
-Licensed under [Creative Commons: By Attribution 3.0]
-(http://creativecommons.org/licenses/by/3.0/)
+Licensed under [Creative Commons: By Attribution 3.0](http://creativecommons.org/licenses/by/3.0/)
