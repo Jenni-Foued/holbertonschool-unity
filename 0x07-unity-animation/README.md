@@ -6,6 +6,11 @@ This is a simple 3D platformer game.
 
 A platformer is a video game in which the game-play revolves heavily around players controlling a character who runs and jumps onto platforms, floors, ledges, stairs, or other objects depicted on a single or scrolling (horizontal or vertical) game screen. Though similar to it, this is not the same as an auto-runner game. It is frequently classified as a sub-genre of action games.
 
+## Project Goals
+
+- Import animations and configure them appropriately
+- Use Animation Controllers and State Machines
+
 ## Built With
 
 - [Unity](https://unity.com) as game engine.
