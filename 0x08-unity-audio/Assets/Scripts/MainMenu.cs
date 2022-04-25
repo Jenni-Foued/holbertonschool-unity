@@ -4,12 +4,6 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public AudioSource audioSource;
-    public AudioClip bgSoundclip;
-
-    private void Start()
-    {
-        audioSource.PlayOneShot(bgSoundclip);
-    }
 
     // Load the scene corresponding to the level number
     public void LevelSelect(int level)
