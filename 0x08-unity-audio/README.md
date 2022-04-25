@@ -1,4 +1,4 @@
-# 0x07. Unity - Animation
+# 0x08. Unity - Audio
 
 This is a simple 3D platformer game.
 
