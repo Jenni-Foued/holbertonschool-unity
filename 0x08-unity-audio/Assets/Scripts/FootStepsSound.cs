@@ -9,13 +9,14 @@ public class FootStepsSound : MonoBehaviour
     private CharacterController characterController;
     public AudioClip clipGrass;
     public AudioClip clipRock;
-
+    WinTrigger trigger;
 
     private void Awake()
     {
         audioSource = GetComponent<AudioSource>();
         animator = GetComponentInChildren<Animator>();
         characterController = GetComponent<CharacterController>();
+        trigger = GameObject.Find("WinFlag").GetComponent<WinTrigger>();
     }
 
     private void Update()
@@ -26,7 +27,7 @@ public class FootStepsSound : MonoBehaviour
 
     void StepsSound()
     {
-        if (characterController.isGrounded)
+        if (characterController.isGrounded && !trigger.isFinished)
         {
             RaycastHit hit = new RaycastHit();
             if (Physics.Raycast(transform.position, Vector3.down, out hit))

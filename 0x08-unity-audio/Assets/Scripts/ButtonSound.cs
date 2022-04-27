@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class ButtonSound : MonoBehaviour
 {
-    public AudioSource audioSource;
-    public AudioClip hoverAudioClip;
-    public AudioClip pressedAudioClip;
+    public AudioSource audioSourceClick;
+    public AudioSource audioSourceHover;
+
+    private void Awake()
+    {
+        audioSourceClick = GameObject.Find("MenuSFX").transform.GetChild(0).GetComponent<AudioSource>();
+        audioSourceHover = GameObject.Find("MenuSFX").transform.GetChild(1).GetComponent<AudioSource>();
+    }
 
     public void HoverSound()
     {
-        audioSource.PlayOneShot(hoverAudioClip);
+        audioSourceHover.Play();
     }
 
     public void ClickSound()
     {
-        audioSource.PlayOneShot(pressedAudioClip);
+        audioSourceClick.Play();
     }
 }

@@ -9,6 +9,7 @@ public class WinTrigger : MonoBehaviour
     private PlayerController playerController;
     private Animator animator;
     private AudioSource audioSource;
+    public bool isFinished = false;
 
     void Start()
     {
@@ -32,5 +33,6 @@ public class WinTrigger : MonoBehaviour
         playerController.enabled = false;
         animator.enabled = false;
         audioSource.enabled = false;
+        isFinished = true;
     }
 }
