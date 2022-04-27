@@ -1319,6 +1319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 561426733}
   winCanvas: {fileID: 138964353}
+  isFinished: 0
 --- !u!4 &509031982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
@@ -5684,7 +5685,7 @@ AudioSource:
   m_GameObject: {fileID: 1559338731}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -8797452116301145374, guid: 91ca2e759f0058b4bace21d52b61c4cf, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
