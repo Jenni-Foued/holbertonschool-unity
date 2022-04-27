@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
         {
             // cooldown interval to allow reliable jumping even when coming down ramps
             groundedTimer = 0.2f;
+
             animator.SetBool("isJumping", false);
             animator.SetBool("isFalling", false);
             animator.SetBool("isGrounded", true);
