@@ -1,10 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.Audio;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+
     public GameObject pauseCanvas;
 
     // Update is called once per frame

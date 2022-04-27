@@ -1,6 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 public class MainMenu : MonoBehaviour
 {
     // Load the scene corresponding to the level number
@@ -24,8 +28,11 @@ public class MainMenu : MonoBehaviour
     // Exit the game when Exit button is pressed from the main menu
     public void Exit()
     {
-        Application.Quit();
-        Debug.Log("Exited");
+        #if UNITY_EDITOR
+            EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
     }
 
     // Load the Scene Options when the Options button is pressed from the main menu
