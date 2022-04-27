@@ -3,8 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public AudioSource audioSource;
-
     // Load the scene corresponding to the level number
     public void LevelSelect(int level)
     {
@@ -21,7 +19,6 @@ public class MainMenu : MonoBehaviour
             SceneManager.LoadScene("Level03");
         }
         Time.timeScale = 1f;
-        audioSource.Stop();
     }
 
     // Exit the game when Exit button is pressed from the main menu
@@ -29,14 +26,11 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Exited");
-        audioSource.Stop();
     }
 
     // Load the Scene Options when the Options button is pressed from the main menu
     public void Options()
     {
         SceneManager.LoadScene("Options");
-        audioSource.Stop();
     }
-
 }

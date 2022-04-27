@@ -9,6 +9,7 @@ public class WinTrigger : MonoBehaviour
     private PlayerController playerController;
     private Animator animator;
     private AudioSource audioSource;
+    private AudioSource bgAudioSource;
     public bool isFinished = false;
 
     void Start()
@@ -17,6 +18,7 @@ public class WinTrigger : MonoBehaviour
         playerController = GameObject.Find("Player").GetComponent<PlayerController>();
         animator = GameObject.Find("Player").GetComponentInChildren<Animator>();
         audioSource = GameObject.Find("Player").GetComponent<AudioSource>();
+        bgAudioSource = GameObject.Find("BG Music").GetComponent<AudioSource>();
     }
 
     // OnTriggerEnter is called when the gameObject is triggered
@@ -34,5 +36,6 @@ public class WinTrigger : MonoBehaviour
         animator.enabled = false;
         audioSource.enabled = false;
         isFinished = true;
+        bgAudioSource.enabled = false;
     }
 }
