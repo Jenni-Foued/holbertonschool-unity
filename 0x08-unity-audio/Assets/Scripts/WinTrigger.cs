@@ -5,13 +5,17 @@ public class WinTrigger : MonoBehaviour
 {
     [SerializeField] Text timerText;
     public GameObject winCanvas;
-    public Timer timer;
-    public PlayerController playerController;
+    private Timer timer;
+    private PlayerController playerController;
+    private Animator animator;
+    private AudioSource audioSource;
 
     void Start()
     {
         timer = GameObject.Find("Player").GetComponent<Timer>();
         playerController = GameObject.Find("Player").GetComponent<PlayerController>();
+        animator = GameObject.Find("Player").GetComponentInChildren<Animator>();
+        audioSource = GameObject.Find("Player").GetComponent<AudioSource>();
     }
 
     // OnTriggerEnter is called when the gameObject is triggered
@@ -26,5 +30,7 @@ public class WinTrigger : MonoBehaviour
         timerText.color = Color.green;
         timer.Win();
         playerController.enabled = false;
+        animator.enabled = false;
+        audioSource.enabled = false;
     }
 }

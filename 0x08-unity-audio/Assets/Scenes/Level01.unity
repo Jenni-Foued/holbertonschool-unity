@@ -858,6 +858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform2
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 191e64aa8fdea5c449c88bda41d648df, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 191e64aa8fdea5c449c88bda41d648df, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1094,6 +1098,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform19
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -1182,6 +1190,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: f49309f3b37838843a87d57f33824aab, type: 3}
       propertyPath: m_Name
       value: Platform13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f49309f3b37838843a87d57f33824aab, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f49309f3b37838843a87d57f33824aab, type: 3}
       propertyPath: m_RootOrder
@@ -1307,8 +1319,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 561426733}
   winCanvas: {fileID: 138964353}
-  timer: {fileID: 0}
-  playerController: {fileID: 0}
 --- !u!4 &509031982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
@@ -1348,6 +1358,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 191e64aa8fdea5c449c88bda41d648df, type: 3}
       propertyPath: m_Name
       value: Platform6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 191e64aa8fdea5c449c88bda41d648df, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 191e64aa8fdea5c449c88bda41d648df, type: 3}
       propertyPath: m_RootOrder
@@ -2281,6 +2295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform1
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f481b21837faa7342928e269a9c5f3ae, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f481b21837faa7342928e269a9c5f3ae, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2723,6 +2741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform18
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -3076,6 +3098,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
       propertyPath: m_Name
       value: Platform14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
       propertyPath: m_RootOrder
@@ -3488,6 +3514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform9
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 798fbd8e40ae08946840d1acddba5cef, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 798fbd8e40ae08946840d1acddba5cef, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3618,6 +3648,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: e49bfd1a5116c0f4a90a8dfcdbba7e20, type: 3}
       propertyPath: m_Name
       value: Platform23
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49bfd1a5116c0f4a90a8dfcdbba7e20, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e49bfd1a5116c0f4a90a8dfcdbba7e20, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3800,6 +3834,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
       propertyPath: m_Name
       value: Platform22
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
       propertyPath: m_RootOrder
@@ -4453,6 +4491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform3
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49bfd1a5116c0f4a90a8dfcdbba7e20, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e49bfd1a5116c0f4a90a8dfcdbba7e20, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4570,6 +4612,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
       propertyPath: m_Name
       value: Platform15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
       propertyPath: m_LocalScale.x
@@ -4986,9 +5032,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 796000715}
     m_Modifications:
+    - target: {fileID: 100000, guid: fb5feadadaae0e3458b32957e18d43d6, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: fb5feadadaae0e3458b32957e18d43d6, type: 3}
       propertyPath: m_Name
       value: Platform12
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: fb5feadadaae0e3458b32957e18d43d6, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fb5feadadaae0e3458b32957e18d43d6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5082,6 +5136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform5
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 7c91e3d552785a840b39742e40b613b5, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c91e3d552785a840b39742e40b613b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5150,6 +5208,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: ba7a1193441cf6e4ea78c2ef8a6d52a4, type: 3}
       propertyPath: m_Name
       value: Platform11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ba7a1193441cf6e4ea78c2ef8a6d52a4, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba7a1193441cf6e4ea78c2ef8a6d52a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5599,6 +5661,116 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4101340450655400191, guid: 4917986ee6fcad2409b30a788dfda08c, type: 3}
   m_PrefabInstance: {fileID: 4101340449253420564}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1559338732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559338731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5994e252ab96a4693dc22684b4267f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipGrass: {fileID: 8300000, guid: bff6d225ace23434d91cb542b54d44e9, type: 3}
+  clipRock: {fileID: 8300000, guid: bb7fb00299deef548873b928c8335a38, type: 3}
+--- !u!82 &1559338733
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559338731}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 3405220061534639094, guid: 91ca2e759f0058b4bace21d52b61c4cf, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1563975474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5690,6 +5862,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 0779e5d1277806848b714d6a6f32c6c6, type: 3}
       propertyPath: m_Name
       value: Platform4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0779e5d1277806848b714d6a6f32c6c6, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0779e5d1277806848b714d6a6f32c6c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -5831,6 +6007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform17
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -5895,6 +6075,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 191e64aa8fdea5c449c88bda41d648df, type: 3}
       propertyPath: m_Name
       value: Platform7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 191e64aa8fdea5c449c88bda41d648df, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 191e64aa8fdea5c449c88bda41d648df, type: 3}
       propertyPath: m_RootOrder
@@ -6041,6 +6225,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: cc4d86227d944b4409167976c0a5f2f0, type: 3}
       propertyPath: m_Name
       value: Platform24
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cc4d86227d944b4409167976c0a5f2f0, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc4d86227d944b4409167976c0a5f2f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -6427,6 +6615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform16
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ba7a1193441cf6e4ea78c2ef8a6d52a4, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba7a1193441cf6e4ea78c2ef8a6d52a4, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -6798,6 +6990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform8
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f481b21837faa7342928e269a9c5f3ae, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f481b21837faa7342928e269a9c5f3ae, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -7130,6 +7326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform21
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6c3959e91c55d44eaa6f43e25cfc392, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -7213,6 +7413,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
       propertyPath: m_Name
       value: Platform10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
       propertyPath: m_LocalScale.x
@@ -7797,6 +8001,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
       propertyPath: m_Name
       value: Platform20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 7b890c2408f392241a25d8720e198c50, type: 3}
       propertyPath: m_RootOrder
